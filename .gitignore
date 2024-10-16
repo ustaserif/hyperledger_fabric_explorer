@@ -1,0 +1,62 @@
+# Ignore Mac system files
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+target/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+asset-transfer-basic/application-gateway-go/vendor/
+asset-transfer-basic/application-gateway-java/target/
+asset-transfer-basic/application-gateway-javascript/node_modules/
+asset-transfer-basic/application-gateway-typescript/node_modules/
+asset-transfer-basic/chaincode-go/vendor/
+asset-transfer-basic/chaincode-java/target/
+asset-transfer-basic/chaincode-javascript/node_modules/
+asset-transfer-basic/chaincode-typescript/node_modules/
+asset-transfer-basic/rest-api-go/vendor/
+asset-transfer-basic/rest-api-typescript/node_modules/
+
+# Fabric binaries
+bin/
+configtxgen
+configtxlator
+cryptogen
+discover
+fabric-ca-client
+fabric-ca-server
+
+# Ignore config files
+config/
+
+# Ignore test network artifacts
+test-network/
