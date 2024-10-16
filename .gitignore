@@ -55,8 +55,3 @@ discover
 fabric-ca-client
 fabric-ca-server
 
-# Ignore config files
-config/
-
-# Ignore test network artifacts
-test-network/
