@@ -60,11 +60,6 @@ When your development or testing session is complete, you can bring the network 
 ⚠️ **Important**:  
 After stopping the network, it's essential to ensure that all Docker volumes are properly removed. This will prevent potential issues when restarting the network for future sessions.
 
-Use the following command to prune unused volumes:
-```bash
-docker volume prune
-```
-
 ---
 
 ## 💻 **Running the Asset-Transfer-Basic Application**
