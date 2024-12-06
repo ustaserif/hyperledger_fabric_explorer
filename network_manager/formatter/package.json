@@ -1,0 +1,21 @@
+{
+  "name": "@hyperledger-twgc/fabric-formatter",
+  "version": "0.0.0",
+  "description": "formatter for Hyperledger Fabric nodejs development",
+  "license": "Apache-2.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "tag": "unstable"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "@hyperledger/fabric-protos": "latest"
+  },
+  "devDependencies": {
+    "@davidkhala/logger": "latest",
+    "mocha": "latest"
+  }
+}

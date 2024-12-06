@@ -172,6 +172,9 @@ function addOrg3 () {
   if [ $? -ne 0 ]; then
     fatalln "ERROR !!!! Unable to join Org3 peers to network"
   fi
+
+  # copy ca folder from ./fabric-ca/org3 to ../organizations/fabric-ca/org3
+  cp -r ./fabric-ca/org3 ../organizations/fabric-ca/org3
 }
 
 # Tear down running network

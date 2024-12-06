@@ -1,0 +1,34 @@
+{
+  "name": "network_manager",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric Network Manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "Hyperledger",
+    "Fabric",
+    "Blockchain",
+    "Manager"
+  ],
+  "author": "ustas",
+  "license": "ISC",
+  "dependencies": {
+    "@davidkhala/crypto": "latest",
+    "@hyperledger-twgc/fabric-formatter": "file:./formatter",
+    "@hyperledger/fabric-protos": "^0.2.2",
+    "cookie-parser": "^1.4.7",
+    "cross-spawn": "^7.0.5",
+    "express": "^4.21.1",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-common": "^2.2.20",
+    "fabric-network": "^2.2.20",
+    "form-data": "latest",
+    "fs": "^0.0.1-security",
+    "khala-fabric-admin": "^2.4.1",
+    "path": "^0.12.7",
+    "yaml": "^2.6.0"
+  }
+}

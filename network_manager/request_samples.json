@@ -1,0 +1,67 @@
+{
+    "network": {
+        "caPort": "7054",
+        "org": "org1",
+        "mspID": "Org1MSP",
+        "channel": "mychannel"
+    },
+    "peer": {
+        "id": "peer1",
+        "secret": "peer1pw",
+        "port": "8051",
+        "chainCodePort": "8052",
+        "corePort": "9446"
+    },
+    "endorser": {
+        "id": "peer0",
+        "port": "7051",
+        "org": "org1",
+        "mspID":"Org1MSP"
+    }
+}
+
+
+{
+    "network": {
+        "caPort": "11054",
+        "org": "org3",
+        "mspID": "Org3MSP",
+        "channel": "mychannel"
+    },
+    "peer": {
+        "id": "peer1",
+        "secret": "peer1pw",
+        "port": "11052",
+        "chainCodePort": "11053",
+        "corePort": "9561"
+    },
+    "endorser": {
+        "id": "peer0",
+        "port": "11051",
+        "org": "org3",
+        "mspID":"Org3MSP"
+    }
+}
+
+
+{
+    "network": {
+        "caPort": "7054",
+        "org": "org1",
+        "mspID": "Org1MSP",
+        "channel": "mychannel"
+    },
+    "peer": {
+        "id": "peer2",
+        "secret": "peer2pw",
+        "port": "10051",
+        "chainCodePort": "10052",
+        "corePort": "9450"
+    },
+    "endorser": {
+        "id": "peer0",
+        "port": "7051",
+        "org": "org1",
+        "mspID":"Org1MSP"
+    }
+}

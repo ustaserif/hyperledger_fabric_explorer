@@ -6,6 +6,8 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+network_manager/wallet
+
 # Java
 *.class
 *.jar
